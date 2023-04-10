@@ -55,7 +55,7 @@ public class Articles_Interest_Rate extends BaseClass {
 			WebElement pl = driver.findElement(By.tagName("body"));
 
 //			WebElement Particular_div = driver.findElement(By.xpath("//div[@class='eligi_bility']"));
-
+			
 			String text = pl.getText();
 
 			String txt = "EFFECTIVE";
